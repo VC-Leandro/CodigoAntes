@@ -1,0 +1,53 @@
+li#toplevel_page_emsb_admin_page .dashicons-admin-generic:before {
+  content: "\f484" !important;
+  display: none;
+}
+.emsb-pending-bookings-count {
+  display: flex;
+  min-width: 18px;
+  height: 18px;
+  background-color: #7979ef;
+  padding: 3px;
+  font-size: 14px;
+  border-radius: 50%;
+  position: absolute;
+  top: 7px;
+  right: 60px;
+  text-align: center;
+  vertical-align: middle;
+  align-self: center;
+  align-items: center;
+  justify-content: center;
+}
+
+li#toplevel_page_emsb_admin_page  .wp-menu-image img {
+  /* width: 25px; */
+  height: 28px;
+  padding: 0 5px 0 5px;
+  margin: 0;
+  position: absolute;
+  top: 3px;
+  left: 0;
+}
+#adminmenu li#toplevel_page_emsb_admin_page .wp-has-current-submenu .wp-menu-image img {
+  width: 33px;
+  height: 25px;
+}
+
+.post-php li#toplevel_page_emsb_admin_page .wp-menu-image img {
+  width: auto;
+}
+
+#adminmenu li#toplevel_page_emsb_admin_page a.wp-has-current-submenu {
+  background: #0028ad;
+  color: #fff;
+}
+#adminmenu li#toplevel_page_emsb_admin_page:hover, 
+#adminmenu li#toplevel_page_emsb_admin_page>a.menu-top:focus,
+#adminmenu li#toplevel_page_emsb_admin_page>a.menu-top:hover {
+  background: #0028ad;
+  color: #fff;
+}
+#adminmenu li#toplevel_page_emsb_admin_page .wp-submenu{
+  background-color: rgb(29, 38, 107);
+}
